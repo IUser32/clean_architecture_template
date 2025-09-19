@@ -1,0 +1,15 @@
+CREATE DATABASE CleanArchitectureTemplateDB;
+GO
+
+USE CleanArchitectureTemplateDB;
+GO
+
+CREATE TABLE Books (
+    Id INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+    Title NVARCHAR(150) NOT NULL,
+    Author NVARCHAR(100) NOT NULL,
+    PublishedAt DATETIME NOT NULL,
+    Price DECIMAL(10, 2) NOT NULL,
+    CreatedAt DATETIME NOT NULL
+);
+GO

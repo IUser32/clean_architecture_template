@@ -1,0 +1,82 @@
+## Archivos y carpetas de compilación
+**/bin/
+**/obj/
+
+## Archivos de usuario y temporales de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Archivos generados por Rider
+.idea/
+*.sln.iml
+
+## Archivos de log
+*.log
+*.log.*
+
+## Archivos temporales del sistema
+*.tmp
+*.temp
+*.bak
+
+## Archivos de base de datos locales
+*.mdf
+*.ldf
+
+## Archivos de configuración locales
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+## Archivos de publicaciones
+**/publish/
+**/out/
+
+## Archivos de paquetes
+**/packages/
+*.nupkg
+*.snupkg
+
+## Archivos de seguridad
+secrets.json
+
+## Archivos de pruebas
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+## Configuración de herramientas
+*.DotSettings.user
+
+## Archivos de sistema
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+## Archivos de npm (si el proyecto usa frontend)
+**/node_modules/
+**/dist/
+
+## Archivos de cache
+**/.cache/
+**/.turbo/
+**/.eslintcache
+
+## Archivos de Docker (opcional si los generas localmente)
+*.env
+docker-compose.override.yml
+
+## Archivos global.json para múltiples SDK (opcional)
+global.json
+
+## Archivos de Azure DevOps pipelines (si se personalizan localmente)
+*.publishsettings
+
+## Archivos específicos de Clean Architecture
+# (No hay archivos únicos, pero este patrón modular cubre todas las capas)
+# Core, Application, Infrastructure, WebAPI, etc.
+
